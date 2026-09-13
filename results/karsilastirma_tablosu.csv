@@ -1,0 +1,6 @@
+deney,aciklama,model,aug,poz,test_acc,top3,params,sure_sn
+baseline,LSTM (final model),LSTM,VAR,VAR,0.9647,0.9882,220549,27.4
+gru,GRU mimari (LSTM yerine),GRU,VAR,VAR,0.9647,1.0000,167301,33.9
+bilstm,BiLSTM (cift yonlu),BiLSTM,VAR,VAR,0.9412,1.0000,506245,39.2
+no_aug,Augmentation kapali,LSTM,YOK,VAR,0.9529,1.0000,220549,23.3
+no_pose,Poz noktalari sifirli (sadece el),LSTM,VAR,YOK,0.9059,0.9882,220549,34.3

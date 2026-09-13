@@ -1,0 +1,19 @@
+{
+  "etiket": "5class",
+  "n_classes": 5,
+  "model_type": "LSTM",
+  "augmentation": true,
+  "use_pose": true,
+  "test_accuracy": 0.9647058844566345,
+  "test_top3_accuracy": 0.9882352948188782,
+  "macro_f1": 0.9652231777231777,
+  "total_params": 220549,
+  "training_time_sec": 27.41525149345398,
+  "secili_siniflar": [
+    5,
+    27,
+    64,
+    184,
+    215
+  ]
+}
